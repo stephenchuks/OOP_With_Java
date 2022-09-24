@@ -1,23 +1,4 @@
-/*
-public class MultipleChoiceQuestion {
-	static int nQuestions = 0;
-	static int nCorrect = 0;
-	
-	String question;
-	String correctAnswer;
-	
-	MultipleChoiceQuestion(String query, String a, String b, String
-			c, String d, String e, String answer) {
-		question = query+"\n";
-		question += "A. "+a+"\n";
 
-	}
-	public static void main(String[] args) {
-		// TODO Auto-generated method stub
-
-	}
-
-}*/
 
 import javax.swing.JOptionPane;
 
@@ -68,8 +49,8 @@ public class MultipleChoiceQuestion {
 		nCorrect++;
 	}else {
 		JOptionPane.showMessageDialog(null, "You are Incorrect. The correct answer is " + correctAnswer);}
-	}// End of else branch
+	}
 		static void showResults() {
 			JOptionPane.showConfirmDialog(null, "You got " + nCorrect + "correct out of " + nQuestions + "questions");
 		}
-	} //This method will check the answer to the question
+	} 
